@@ -24,4 +24,26 @@ In the project directory, you can run several scripts:
 
 - `npm start`: Starts the backend server.
 - `npm run test`: Runs the backend tests.
+# Configuration Guide
+
+## Setting Up Environment Variables
+
+To configure the backend, follow these steps:
+
+1. **Create a `.env` file** inside the `backend` directory.
+2. **Copy and paste the following code** into the `.env` file:
+
+```env
+MONGO_URI=Your mongodb URI
+JWT_SECRET=a random secret key like - mybirthday4july
+```
+
+## Notes:
+- Ensure you replace `Your mongodb URI` with your actual **MongoDB connection string**.
+- Use your **Gmail address** for `GMAIL_USERNAME`.
+- Generate an **App Password** in your Google account settings and use it as `GMAIL_PASSWORD`.
+- The `PORT` is set to **8000**, but you can modify it if needed.
+- Set a strong **JWT_SECRET** for authentication security.
+
+After setting up the `.env` file, restart your backend server to apply the changes.
 
