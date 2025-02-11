@@ -1,4 +1,4 @@
-# Todo App - MERN Stack
+# Task Manager App - MERN Stack
 
 ## About the Project
 This is a MERN (MongoDB, Express.js, React.js, Node.js) Todo application built using Create React App. It allows users to create, manage, and delete tasks in a todo list.
